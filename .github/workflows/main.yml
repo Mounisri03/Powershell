@@ -9,6 +9,5 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Perform a Pester test from the command-line
-        shell: pwsh
         run: ./installgoogle.ps1
-
+        shell: pwsh
