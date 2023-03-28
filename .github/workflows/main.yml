@@ -10,4 +10,3 @@ jobs:
         uses: actions/checkout@v3
       - name: Perform a Pester test from the command-line
         run: ./installgoogle.ps1
-        shell: pwsh
